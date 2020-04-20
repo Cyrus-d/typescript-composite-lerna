@@ -2,11 +2,6 @@
   "compilerOptions": {
     "noImplicitThis": true,
     "preserveConstEnums": true,
-    "lib": [
-      "es5",
-      "es6",
-      "esnext.asynciterable"
-    ],
     "target": "es2016",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -18,7 +13,6 @@
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "declarationMap": true,
-    "noImplicitAny": true,
     "declaration": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
@@ -26,5 +20,6 @@
     "pretty": true,
     "strictNullChecks": true,
     "noUnusedLocals": true
-  }
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "**/__tests__/*"]
 }

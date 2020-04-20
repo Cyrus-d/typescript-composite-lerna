@@ -7,14 +7,16 @@
     "lib",
     "src"
   ],
-  "scripts": {
-    "build": "tsc -b ./tsconfig.package.json",
-    "prepublish": "npm run build"
-  },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
+    "react": "^16.13.1",
+    "rimraf": "^3.0.2",
     "typescript-composite-lerna-bar": "0.1.0"
+  },
+  "scripts": {
+    "build": "rimraf lib/* tsconfig.package.tsbuildinfo && tsc -b ./tsconfig.package.json",
+    "prepublish": "npm run build"
   }
 }
