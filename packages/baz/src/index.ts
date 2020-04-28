@@ -1,6 +1,6 @@
 import { Foobar } from 'typescript-composite-lerna-bar';
 
-function main() {
+function main(): void {
   console.log(Foobar() + 'baz');
 }
 
