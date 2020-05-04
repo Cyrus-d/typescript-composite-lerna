@@ -1,5 +1,5 @@
 {
-  "name": "typescript-composite-lerna-baz",
+  "name": "typescript-lerna-boilerplate-baz",
   "version": "0.1.0",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "^16.13.1",
     "rimraf": "^3.0.2",
-    "typescript-composite-lerna-bar": "0.1.0"
+    "typescript-lerna-boilerplate-bar": "0.1.0"
   },
   "scripts": {
     "build": "rimraf lib/* tsconfig.package.tsbuildinfo && tsc -b ./tsconfig.package.json",

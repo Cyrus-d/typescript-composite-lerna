@@ -1,5 +1,5 @@
 {
-  "name": "typescript-composite-lerna-foo",
+  "name": "typescript-lerna-boilerplate-foo",
   "version": "0.1.0",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -10,12 +10,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "build": "rimraf lib/* tsconfig.package.tsbuildinfo && tsc -b ./tsconfig.package.json",
-    "prepublish": "npm run build"
-  },
   "dependencies": {
     "react": "^16.13.1",
     "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "build": "rimraf lib/* tsconfig.package.tsbuildinfo && tsc -b ./tsconfig.package.json",
+    "prepublish": "npm run build"
   }
 }

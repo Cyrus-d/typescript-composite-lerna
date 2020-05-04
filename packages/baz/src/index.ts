@@ -1,4 +1,4 @@
-import { Foobar } from 'typescript-composite-lerna-bar';
+import { Foobar } from 'typescript-lerna-boilerplate-bar';
 
 function main(): void {
   console.log(Foobar() + 'baz');

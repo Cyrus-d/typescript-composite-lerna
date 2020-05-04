@@ -21,10 +21,6 @@
     "strictNullChecks": true,
     "noUnusedLocals": true
   },
-  "exclude": ["node_modules", "**/node_modules/*", "**/__tests__/*"],
-  "include": [
-    "**/__tests__/**/*.ts",
-    "**/scripts/**/*.ts",
-    "packages/**/src/**/*"
-  ]
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "include": ["**/__tests__/**/*", "**/scripts/**/*.ts", "packages/**/src/**/*"]
 }
